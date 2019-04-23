@@ -1,0 +1,35 @@
+html, body{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+  font-size: 16px;
+  font-family: "TravelingTypewriter", serif;
+  background: {
+    image:url('../images/old-paper.jpg');
+    size: cover;
+    repeat: no-repeat;
+  }
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  position:fixed;
+  right:30%;
+  left: 30%;
+  bottom:0;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 -1px 1px 1px rgba(0,0,0,.1)
+}
